@@ -1,6 +1,13 @@
 {
     "type": "project",
     "license": "proprietary",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "http://github.com/wouterj/symfony",
+            "canonical": false
+        }
+    ],
     "require": {
         "php": ">=7.2.5",
         "ext-json": "*",

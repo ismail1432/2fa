@@ -72,6 +72,9 @@ jobs:
                     -   php-version: '7.4'
                         symfony-version: '^5.0'
 
+                    -   php-version: '7.4'
+                        symfony-version: 'dev-issue-39308/remember-me as 5.3.0'
+
                     -   php-version: '8.0'
                         symfony-version: '^5.0'
 
@@ -138,13 +141,17 @@ jobs:
                         symfony-version: '~5.2.0'
                         app-config: 'default'
 
+                    -   php-version: '7.4'
+                        symfony-version: 'dev-issue-39308/remember-me as 5.3.0'
+                        app-config: 'default'
+
                     -   php-version: '8.0'
                         symfony-version: '^5.0'
                         app-config: 'default'
 
                     # Authenticators configuration (experimental security system)
                     -   php-version: '7.4'
-                        symfony-version: '~5.2.0'
+                        symfony-version: 'dev-issue-39308/remember-me as 5.3.0'
                         app-config: 'authenticators'
 
         steps:
